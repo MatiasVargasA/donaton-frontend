@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 export default function RegistroDonaciones() {
   return (
@@ -23,9 +24,9 @@ export default function RegistroDonaciones() {
           <button className="p-2 hover:bg-slate-50 dark:hover:bg-slate-800 transition-colors rounded-full">
             <span className="material-symbols-outlined" data-icon="help_outline">help_outline</span>
           </button>
-          <div className="w-8 h-8 rounded-full overflow-hidden border border-slate-200">
+          <Link to="/perfil" className="w-8 h-8 rounded-full overflow-hidden border border-slate-200 block">
             <img alt="Avatar del usuario administrativo" className="w-full h-full object-cover" data-alt="Close-up portrait of a professional male administrator in a brightly lit modern office environment" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAScWNdot5OqRN6S8SBZx0GFByQY-eeYbX2wrenG65mWPzsZDbGyJW-Vk2Iy-zOlaKw07-r0apumSEu3zgszKbCuFiUBdKLnHddonR5sIj0Pdpz4pVjQ4y2WTcxbuXUhTrmfk75NWNPttwD3B8MtmKcCml5gBXpxhdrad2RCPxJZo1DbFC9-9OTq8453cdMGxGS6iXoq5YAA1lzPojaO4ffwsSsYkh3IpN7d0xQwxMTt3tMuT3M-ZXs7fmGR7MOrXUj1Nom9Hlb-_M"/>
-          </div>
+          </Link>
         </div>
       </header>
 

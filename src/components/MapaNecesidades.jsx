@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 export default function MapaNecesidades() {
   return (
@@ -19,9 +20,9 @@ export default function MapaNecesidades() {
               <span className="material-symbols-outlined text-slate-500 cursor-pointer hover:text-primary transition-colors" data-icon="notifications">notifications</span>
               <span className="material-symbols-outlined text-slate-500 cursor-pointer hover:text-primary transition-colors" data-icon="help_outline">help_outline</span>
             </div>
-            <div className="h-8 w-8 rounded-full bg-primary-container flex items-center justify-center overflow-hidden border-2 border-white shadow-sm">
+            <Link to="/perfil" className="h-8 w-8 rounded-full bg-primary-container flex items-center justify-center overflow-hidden border-2 border-white shadow-sm block">
               <img alt="Avatar del usuario administrativo" data-alt="Close-up portrait of a professional man in his 40s with a kind expression and clean-cut appearance for an administrative profile avatar" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD9MTjmtOdGzPBT-IUjsP7J_pjEK1WUyNVYGBUmGZBQ6wCZ3FmdpvKUC1SbCwD2iX057iKkxsqzFEqoJfUvUHrVft7D8gTDJ-5T0dTz-Hbp0WdeZjkBz_r4MkwpfjecQDqvZrCsSaRsv6syXRLvCLhRvrnUBNWOtk9Fmzl9h4-nZHpXF3dA_mjpM0kOsD4YsSr9DhGqRYDW0b_cq29FntS79ZL3iYndUnWElkcy50dirZO9PN2xfPGZ_k9t7CvxFBTMgf8xhBZyviM"/>
-            </div>
+            </Link>
           </div>
         </header>
 

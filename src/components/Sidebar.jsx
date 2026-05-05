@@ -49,6 +49,13 @@ export default function Sidebar() {
         </button>
       </div>
       <div className="border-t border-slate-200 pt-4">
+        <NavLink 
+          to="/perfil" 
+          className={({ isActive }) => `${baseLinkClasses} ${isActive ? activeClasses : inactiveClasses}`}
+        >
+          <span className="material-symbols-outlined" data-icon="person">person</span>
+          <span className="font-public-sans text-sm tracking-wide">Perfil</span>
+        </NavLink>
         <a className="flex items-center gap-3 px-4 py-3 text-slate-600 hover:bg-slate-100 hover:pl-5 transition-all duration-200 cursor-pointer" href="#">
           <span className="material-symbols-outlined" data-icon="settings">settings</span>
           <span className="font-public-sans text-sm tracking-wide">Configuración</span>

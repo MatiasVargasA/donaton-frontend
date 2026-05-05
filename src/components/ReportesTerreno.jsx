@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 export default function ReportesTerreno() {
   return (
@@ -22,9 +23,9 @@ export default function ReportesTerreno() {
                 <span className="material-symbols-outlined">help_outline</span>
               </button>
             </div>
-            <div className="h-8 w-8 rounded-full overflow-hidden border border-slate-200">
+            <Link to="/perfil" className="h-8 w-8 rounded-full overflow-hidden border border-slate-200 block">
               <img alt="Avatar del usuario administrativo" className="w-full h-full object-cover" data-alt="Professional portrait of a humanitarian administrator in a neutral office setting with soft natural light" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDTdJnQQQu4XCsCItMeiIdylpEWwEOGYneG3VSz26G9YzWYvgg2FDO9e__ZD0zcV4Q4yMbSszozVoDUFgAS46Ul83Z1oxBNUcYYaCdeLKxLMUHEOii0G1y7pK3sskSbcvZz_rYQzPpqXmFDqcH3Fbg8yd8i1tiqwx4DPQnF7TaRZcwdfusA4BQP8F6fsD8Se1vq73XqC6E8G_JpST2ZlYhlhbxGAFibl4W4FRCng-ZkiGBoIg4Rbz-RxFAF0AHta-xBcNgV11-bO1s"/>
-            </div>
+            </Link>
           </div>
         </div>
       </header>

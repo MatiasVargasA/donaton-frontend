@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 export default function PanelControlGlobal() {
   return (
@@ -26,9 +27,9 @@ export default function PanelControlGlobal() {
                 <p className="text-sm font-bold text-on-surface leading-tight">Admin Central</p>
                 <p className="text-[10px] text-slate-500 uppercase font-bold tracking-tighter">Coordinador Global</p>
               </div>
-              <div className="w-10 h-10 rounded-full bg-primary-container overflow-hidden border-2 border-white shadow-sm">
+              <Link to="/perfil" className="w-10 h-10 rounded-full bg-primary-container overflow-hidden border-2 border-white shadow-sm block">
                 <img alt="Avatar del usuario administrativo" data-alt="professional portrait of a middle-aged administrative man with a neutral and confident expression in a clean studio setting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuApICQXy7hUbLDlEIdNycBw-69CVDxq2WT6960fELha-9O-XXx8QQ3cFDzTa0ipjdSrkFKqm4pqlzhw00WmH4Bi7pkKZIWpSI-ItJ0RxieO0i-rxSDR853JC8Orp7isxOjXTpCBptXwp6ttO_bGSA2mYuLj653czwZ9Mn9oWpp8YAxXOa7Ltj6w3ja4pgihdLg1_9gBQ7kLZT9F5syeTJTILOHVAnNEIhMRTYEFcCccoMRS6hKwJG2yR4C98ZAeYWj7I4x5ZRSFtLY"/>
-              </div>
+              </Link>
             </div>
           </div>
         </header>
